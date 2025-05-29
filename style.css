@@ -1,0 +1,50 @@
+body {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 2rem;
+}
+
+.hidden {
+display: none;
+}
+
+#popup {
+margin-top: 1rem;
+padding: 1rem;
+background: lightgreen;
+border: 1px solid green;
+}
+#taskList li {
+  background-color: #f0f8ff; 
+  border: 1px solid #a9c9ff;
+  border-radius: 10px;        
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#taskList li button.deleteBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #ff4d4d;
+}
+div{
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#taskInput{
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#tasklist{
+}
